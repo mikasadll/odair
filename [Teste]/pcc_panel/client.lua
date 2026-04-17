@@ -117,7 +117,7 @@ local function recalculateLayout()
             x = panel.screenArea.x + 34,
             y = panel.screenArea.y + 118,
             width = 228,
-            title = "Roupas",
+            title = "Skins",
             items = skins,
             scroll = 0
         },
