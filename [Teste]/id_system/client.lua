@@ -19,7 +19,7 @@ local function renderPlayerIds()
     local cameraX, cameraY, cameraZ = getCameraMatrix()
 
     for _, player in ipairs(getElementsByType("player")) do
-        if isElementStreamedIn(player) and getElementDimension(player) == getElementDimension(localPlayer) and getElementInterior(player) == getElementInterior(localPlayer) then
+        if player ~= localPlayer and isElementStreamedIn(player) and getElementDimension(player) == getElementDimension(localPlayer) and getElementInterior(player) == getElementInterior(localPlayer) then
             local accountId = getElementData(player, playerIdElementData)
             if accountId and accountId ~= "" then
                 local px, py, pz = getElementPosition(player)
