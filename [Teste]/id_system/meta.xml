@@ -1,0 +1,5 @@
+<meta>
+    <info author="OpenAI" version="1.0.0" name="ID System" type="script" />
+    <script src="client.lua" type="client" />
+    <script src="server.lua" type="server" />
+</meta>

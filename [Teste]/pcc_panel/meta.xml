@@ -1,0 +1,6 @@
+<meta>
+    <info author="OpenAI" version="1.0.0" name="Painel PCC" type="script" />
+    <script src="client.lua" type="client" />
+    <script src="server.lua" type="server" />
+    <file src="pcc_logo.png" />
+</meta>
