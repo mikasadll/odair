@@ -75,7 +75,7 @@ local colors = {
     textSoft = tocolor(190, 190, 190, 255),
     border = tocolor(0, 0, 0, 255),
     track = tocolor(48, 48, 48, 255),
-    home = tocolor(220, 220, 220, 255)
+    home = tocolor(00, 00, 00, 00)
 }
 
 local function drawRoundedRect(x, y, width, height, color, radius)
